@@ -1,21 +1,23 @@
 <template>
   <q-layout view="lHH Lpr lFf">
-    <q-header class="bg-primary" reveal>
+    <q-header class="bg-primary"
+      reveal>
       <q-toolbar>
-        <img src="~assets/spe.jpg">
-        <q-toolbar-title class="text-h2">
+        <img src="~assets/petro.svg"
+          style="height: 100px">
+        <q-toolbar-title class="text-h2 text-bold">
           PetroBowl
         </q-toolbar-title>
         <q-space></q-space>
         <div>
           <div class="row">
-            <div class="text-h5">Scorekeeper
+            <div class="text-h5">Timekeeper
               <q-avatar color="purple-9"
                 text-color="blue-grey-2">
                 <q-tooltip self="center middle"
-                  content-class="bg-purple-1 text-black">
+                  content-class="bg-purple text-black">
                   chucenam
-                </q-tooltip>M</q-avatar>
+                </q-tooltip>R</q-avatar>
             </div>
           </div>
           <div class="row justify-end">
@@ -40,12 +42,12 @@
       overlay
       aria-placeholder="20px"
       content-class="bg-blue-1 q-pa-lg">
-      <div>
-        <div class="row bg-primary text-white text-h6 text-center"
+      <div v-if="route === '/scoreKeeper'">
+        <div class="row bg-primary text-white text-h5 text-center"
           style="height: 30px">
           <div class="col">Regular round #1</div>
         </div>
-        <div class="row bg-primary text-grey-1 text-h6 text-center"
+        <div class="row bg-primary text-grey-1 text-h5 text-center"
           style="height: 40px">
           <div class="col-6">A-Team: UDO 25</div>
           <div class="col-6">B-Team: LUZ 34</div>
@@ -55,6 +57,114 @@
           :columns="columns"
           row-key="name"
           color="info" />
+      </div>
+      <div v-if="route === '/timeKeeper'">
+        <div>
+          <div class="row bg-primary text-white text-h5 text-center"
+            style="height: 30px">
+            <div class="col">Regular round #2</div>
+          </div>
+          <div class="row bg-primary text-grey-1 text-h5 text-center"
+            style="height: 40px">
+            <div class="col-6">A-Team: UDO 25</div>
+            <div class="col-6">B-Team: LUZ 34</div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <div class="title2 text-h5 text-bold text-left text-center">
+                Start time:
+              </div>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="9:00 am"
+                disable/>
+            </div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <q-toolbar-title class="title2 text-h5 text-bold text-left text-center">
+                Stop time:
+              </q-toolbar-title>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="9:00 am"
+                disable/>
+            </div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <q-toolbar-title class="title2 text-h5 text-bold text-left text-center">
+                Duration:
+              </q-toolbar-title>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="30:30:15"
+                disable/>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row bg-primary text-white text-h5 text-center"
+            style="height: 30px">
+            <div class="col">Regular round #2</div>
+          </div>
+          <div class="row bg-primary text-grey-1 text-h5 text-center"
+            style="height: 40px">
+            <div class="col-6">A-Team: UCV 57</div>
+            <div class="col-6">B-Team: UDO 10</div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <div class="title2 text-h5 text-bold text-left text-center">
+                Start time:
+              </div>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="9:30 am"
+                disable/>
+            </div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <q-toolbar-title class="title2 text-bold text-h5 text-left text-center">
+                Stop time:
+              </q-toolbar-title>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="10:15 am"
+                disable/>
+            </div>
+          </div>
+          <div class="row q-pa-md">
+            <div class="col-2">
+              <q-toolbar-title class="title2 text-bold text-h5 text-left text-center">
+                Duration:
+              </q-toolbar-title>
+            </div>
+            <div class="col-3">
+              <q-input outlined
+                v-model="text"
+                style="font-size: 25px"
+                placeholder="45:05:54"
+                disable/>
+            </div>
+          </div>
+        </div>
       </div>
     </q-drawer>
 
@@ -72,7 +182,7 @@ export default {
   data () {
     return {
       drawer: true,
-      miniState: true,
+      miniState: false,
       columns: [
         {
           name: 'QID',
@@ -136,11 +246,15 @@ export default {
           Record: 0,
           NEdit: '0'
         }
-      ]
+      ],
+      route: this.$route.path
     }
   },
   methods: {
     openURL
+  },
+  created () {
+    console.log(this.$route.path)
   }
 }
 </script>
@@ -149,5 +263,8 @@ export default {
 .my-sticky-header-table .q-table__top {
   background-color: rgb(13, 76, 146);
   color: white;
+}
+.title2 {
+  margin-top: 20px;
 }
 </style>

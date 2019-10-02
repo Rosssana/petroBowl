@@ -1,10 +1,24 @@
 
 const routes = [
   {
-    path: '/',
+    path: '/scoreKeeper',
     component: () => import('layouts/MyLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: () => import('pages/ScoreKeeper.vue') }
+    ]
+  },
+  {
+    path: '/timeKeeper',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/Timekeeper.vue') }
+    ]
+  },
+  {
+    path: '/moderator',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/Moderator.vue') }
     ]
   }
 ]
