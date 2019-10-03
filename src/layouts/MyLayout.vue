@@ -11,7 +11,7 @@
         <q-space></q-space>
         <div>
           <div class="row">
-            <div class="text-h5">Timekeeper
+            <div class="text-h5">ScoreKeeper
               <q-avatar color="purple-9"
                 text-color="blue-grey-2">
                 <q-tooltip self="center middle"

@@ -1,19 +1,20 @@
 <template>
   <q-page class="bg-blue-grey-1">
     <!-- question section -->
-    <!-- <div class="row q-pa-md justify-center">
-      <div class="col-11">
+    <div class="row q-pa-md justify-center">
+      <!-- <div class="col-11">
         <b-field type="is-info">
           <b-select placeholder="Seleccionar round"
             size="is-medium"
             expanded
+            Disabled
             color="red">
             <option value="flint">Regular round 1: UDO 25 - LUZ 34</option>
             <option value="silver">Regular round 2: UCV 57 - UDO 10</option>
           </b-select>
         </b-field>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
     <div class="row q-pa-md">
       <q-toolbar class="text-primary">
         <q-space/>
@@ -46,9 +47,9 @@
       <div class="col-11">
         <q-card dark
           bordered
-          class="bg-primary my-card">
+          class="bg-secondary my-card" style="height: 300px">
           <q-card-section>
-            <div class="text-h5 text-grey-1 text-bold">QID #001:</div>
+            <div class="text-h5 text-grey-1 text-bold">BQ ID # 0001:</div>
           </q-card-section>
 
           <q-separator info
@@ -59,36 +60,19 @@
         </q-card>
       </div>
     </div>
-    <div class="row q-pa-md q-mt-xl justify-center">
-      <div class="col-11">
-        <q-card dark
-          bordered
-          class="bg-secondary my-card">
-          <q-card-section>
-            <div class="text-h5 text-grey-1 text-bold">Answer:</div>
-          </q-card-section>
-
-          <q-separator info
-            inset />
-          <q-card-section class="text-h4 text-grey-1">
-            Blue
-          </q-card-section>
-        </q-card>
-      </div>
-    </div>
-    <q-toolbar class="row q-pa-md q-mt-lg justify-center">
+    <q-toolbar class="row q-pa-md q-mt-xl justify-center">
+      <q-space></q-space>
+      <q-btn class="q-px-xl q-py-xs"
+        style="font-size: 0px"
+        align="center"
+        outline
+        online
+        color="grey-11" />
       <q-space></q-space>
       <q-btn class="q-px-xl q-py-xs"
         style="font-size: 25px"
         align="center"
         color="accent"
-        label="Bonus" />
-      <q-space></q-space>
-      <q-btn class="q-px-xl q-py-xs"
-        style="font-size: 25px"
-        align="center"
-        color="accent"
-        Disabled
         label="next" />
       <q-space></q-space>
     </q-toolbar>
@@ -116,6 +100,9 @@
 }
 .title1 {
   margin-top: 30px;
+}
+.spe {
+  margin-top: 160px;
 }
 .marks {
   margin-top: 100px;

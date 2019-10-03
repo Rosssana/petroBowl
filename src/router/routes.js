@@ -20,6 +20,13 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/Moderator.vue') }
     ]
+  },
+  {
+    path: '/bonus',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/ModeratorBonus.vue') }
+    ]
   }
 ]
 
