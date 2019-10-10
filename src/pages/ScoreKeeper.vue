@@ -18,12 +18,12 @@
       <div class="col-md-5 q-pb-lg q-mt-lg bg-white">
         <!-- title - Team name -->
         <div class="row q-pa-md">
-          <div class="col-xs-4 col-sm-3 col-md-4">
+          <div class="col-xs-4 col-sm-4 col-md-4">
             <q-toolbar-title class="text-h4 text-white text-center bg-accent">
               Team-A:
             </q-toolbar-title>
           </div>
-          <div class="col-xs-8 col-sm-9 col-md-8">
+          <div class="col-xs-8 col-sm-8 col-md-8">
             <q-toolbar-title class="text-h4 text-left bg-accent text-white text-bold">
               Nombre equipo A
             </q-toolbar-title>
@@ -71,12 +71,12 @@
       <div class="col-md-5 q-mt-lg q-pb-lg bg-white">
         <!-- title - Team name -->
         <div class="row q-pa-md">
-          <div class="col-xs-4 col-sm-3 col-md-4">
+          <div class="col-xs-4 col-sm-4 col-md-4">
             <q-toolbar-title class="text-h4 text-white text-center bg-secondary">
               Team-B:
             </q-toolbar-title>
           </div>
-          <div class="col-xs-8 col-sm-9 col-md-8">
+          <div class="col-xs-8 col-sm-8 col-md-8">
             <q-toolbar-title class="text-h4 text-left bg-secondary text-white text-bold">
               Nombre equipo B
             </q-toolbar-title>

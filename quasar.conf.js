@@ -66,7 +66,8 @@ module.exports = function (ctx) {
         'QSelect',
         'QCard',
         'QCardSection',
-        'QCardActions'
+        'QCardActions',
+        'QParallax'
       ],
 
       directives: [

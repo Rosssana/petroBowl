@@ -27,6 +27,20 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/ModeratorBonus.vue') }
     ]
+  },
+  {
+    path: '/generalScreen',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/GeneralScreen.vue') }
+    ]
+  },
+  {
+    path: '/sortingScreen',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/SortingScreen.vue') }
+    ]
   }
 ]
 

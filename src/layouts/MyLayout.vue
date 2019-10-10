@@ -11,13 +11,13 @@
         <q-space></q-space>
         <div>
           <div class="row">
-            <div class="text-h5">ScoreKeeper
-              <q-avatar color="purple-9"
-                text-color="blue-grey-2">
+            <div class="text-h5">
+              <q-avatar color="deep-orange-12"
+                text-color="blue-white">
                 <q-tooltip self="center middle"
-                  content-class="bg-purple text-black">
+                  content-class="bg-cyan text-black">
                   chucenam
-                </q-tooltip>R</q-avatar>
+                </q-tooltip>A</q-avatar>
             </div>
           </div>
           <div class="row justify-end">
