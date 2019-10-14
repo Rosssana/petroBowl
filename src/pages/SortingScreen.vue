@@ -8,32 +8,6 @@
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
               outline
-              color="grey"
-              label="100" />
-            <q-btn size="20px"
-              class="q-px-xl q-ml-md q-py-xs"
-              align="center"
-              color="grey"
-              label="UDO 25" />
-          </div>
-          <div class="col-12 q-mt-md q-ml-xl">
-            <q-btn size="20px"
-              class="q-px-xl q-ml-xl q-py-xs"
-              align="center"
-              outline
-              color="grey"
-              label="100" />
-            <q-btn size="20px"
-              class="q-px-xl q-ml-md q-py-xs"
-              align="center"
-              color="grey"
-              label="UDO 25" />
-          </div>
-          <div class="col-12 q-mt-md q-ml-xl">
-            <q-btn size="20px"
-              class="q-px-xl q-ml-xl q-py-xs"
-              align="center"
-              outline
               color="primary"
               label="100" />
             <q-btn size="20px"
@@ -60,12 +34,12 @@
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="negative"
               label="100" />
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="col-12 q-mt-md q-ml-xl">
@@ -73,12 +47,12 @@
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="negative"
               label="100" />
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="col-12 q-mt-md q-ml-xl">
@@ -112,12 +86,12 @@
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="negative"
               label="100" />
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="col-12 q-mt-md q-ml-xl">
@@ -125,25 +99,12 @@
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="negative"
               label="100" />
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
-              label="UDO 25" />
-          </div>
-          <div class="col-12 q-mt-md q-ml-xl">
-            <q-btn size="20px"
-              class="q-px-xl q-ml-xl q-py-xs"
-              align="center"
-              outline
-              color="primary"
-              label="100" />
-            <q-btn size="20px"
-              class="q-px-xl q-ml-md q-py-xs"
-              align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="col-12 q-mt-md q-ml-xl">
@@ -157,6 +118,45 @@
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
               color="primary"
+              label="UDO 25" />
+          </div>
+          <div class="col-12 q-mt-md q-ml-xl">
+            <q-btn size="20px"
+              class="q-px-xl q-ml-xl q-py-xs"
+              align="center"
+              outline
+              color="primary"
+              label="100" />
+            <q-btn size="20px"
+              class="q-px-xl q-ml-md q-py-xs"
+              align="center"
+              color="primary"
+              label="UDO 25" />
+          </div>
+          <div class="col-12 q-mt-md q-ml-xl">
+            <q-btn size="20px"
+              class="q-px-xl q-ml-xl q-py-xs"
+              align="center"
+              outline
+              color="negative"
+              label="100" />
+            <q-btn size="20px"
+              class="q-px-xl q-ml-md q-py-xs"
+              align="center"
+              color="negative"
+              label="UDO 25" />
+          </div>
+          <div class="col-12 q-mt-md q-ml-xl">
+            <q-btn size="20px"
+              class="q-px-xl q-ml-xl q-py-xs"
+              align="center"
+              outline
+              color="negative"
+              label="100" />
+            <q-btn size="20px"
+              class="q-px-xl q-ml-md q-py-xs"
+              align="center"
+              color="negative"
               label="UDO 25" />
           </div>
         </div>
@@ -167,7 +167,7 @@
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="primary"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -175,14 +175,14 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="primary"
               label="1000" />
           </div>
           <div class="button2 col-12 q-mt-xs">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -190,14 +190,14 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="primary"
+              color="negative"
               label="1000" />
           </div>
           <div class="button3 col-12 q-mt-xs">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="primary"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -205,14 +205,14 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="primary"
               label="1000" />
           </div>
           <div class="button4 col-12 q-mt-xs">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -220,14 +220,14 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="primary"
+              color="negative"
               label="1000" />
           </div>
           <div class="button5 col-12 q-mt-xs">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="grey"
+              color="primary"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -235,14 +235,14 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="grey"
+              color="primary"
               label="1000" />
           </div>
           <div class="button6 col-12 q-mt-xs">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="button1 col-12 q-mt-xs">
@@ -250,7 +250,7 @@
               class="q-px-xl q-py-xs"
               align="center"
               outline
-              color="primary"
+              color="negative"
               label="1000" />
           </div>
         </div>
@@ -260,7 +260,7 @@
           <div class="button7 col-12 q-mt-xl">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
-              color="grey"
+              color="primary"
               align="center"
               label="UDO 25" />
           </div>
@@ -268,13 +268,13 @@
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
               align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
           <div class="button9 col-12 q-mt-xl">
             <q-btn size="20px"
               class="q-px-xl q-ml-md q-py-xs"
-              color="grey"
+              color="primary"
               align="center"
               label="UDO 25" />
           </div>
@@ -282,7 +282,7 @@
             <q-btn size="20px"
               class="q-px-xl  q-ml-md q-py-xs"
               align="center"
-              color="primary"
+              color="negative"
               label="UDO 25" />
           </div>
         </div>

@@ -1,7 +1,7 @@
 <template>
   <q-page class="bg-blue-grey-1">
     <div class="row q-pa-xl justify-center">
-      <div class="col-md-12 col-lg-11 q-pb-lg bg-grey-1">
+      <div class="col-md-12 col-lg-11 q-pb-lg bg-white">
         <!-- titlee -->
         <div class="row q-pa-md q-pb-xl justify-around">
           <div class="col-11">
