@@ -1,5 +1,7 @@
 <template>
   <q-page class="bg-grey-1">
+    <img src="~assets/llaves.png"
+      style="position: absolute; width: 100%; height: 98%" />
     <div class="row q-pa-lg">
       <div class="col-4 q-ml-xl">
         <div class="row">
@@ -94,7 +96,7 @@
               color="negative"
               label="UDO 25" />
           </div>
-          <div class="col-12 q-mt-md q-ml-xl">
+          <div class="button0 col-12 q-mt-md q-ml-xl">
             <q-btn size="20px"
               class="q-px-xl q-ml-xl q-py-xs"
               align="center"
@@ -257,9 +259,9 @@
       </div>
       <div class="col-3 q-ml-lg">
         <div class="row">
-          <div class="button7 col-12 q-mt-xl">
+          <div class="button7 col-12">
             <q-btn size="20px"
-              class="q-px-xl q-ml-md q-py-xs"
+              class="q-px-xl q-py-xs"
               color="primary"
               align="center"
               label="UDO 25" />
@@ -272,18 +274,24 @@
               label="UDO 25" />
           </div>
           <div class="button9 col-12 q-mt-xl">
-            <q-btn size="20px"
-              class="q-px-xl q-ml-md q-py-xs"
-              color="primary"
-              align="center"
-              label="UDO 25" />
+            <div class="row">
+              <div class="col-6">
+                <q-btn size="20px"
+                  class="q-px-xl  q-ml-md q-py-xs"
+                  align="center"
+                  color="primary"
+                  label="UDO 25" />
+              </div>
+              <div class="col-6">
+                <q-btn size="20px"
+                  class="q-px-xl  q-ml-md q-py-xs"
+                  align="center"
+                  color="negative"
+                  label="UDO 25" />
+              </div>
+            </div>
           </div>
           <div class="button10 col-12 q-mt-xl">
-            <q-btn size="20px"
-              class="q-px-xl  q-ml-md q-py-xs"
-              align="center"
-              color="negative"
-              label="UDO 25" />
           </div>
         </div>
       </div>
@@ -317,7 +325,7 @@
   margin-top: 30px;
 }
 .button7 {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .button8 {
   margin-top: 220px;

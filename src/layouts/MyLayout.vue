@@ -11,7 +11,7 @@
         <q-space></q-space>
         <div>
           <div class="row">
-            <div class="text-h5">
+            <div class="text-h6">Perfíl
               <q-avatar color="deep-orange-12"
                 text-color="blue-white">
                 <q-tooltip self="center middle"
