@@ -41,6 +41,13 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/SortingScreen.vue') }
     ]
+  },
+  {
+    path: '/sortingScreen2',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/SortingScreen2.vue') }
+    ]
   }
 ]
 
