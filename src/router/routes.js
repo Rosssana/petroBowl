@@ -48,6 +48,13 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/SortingScreen2.vue') }
     ]
+  },
+  {
+    path: '/sortingFinal',
+    component: () => import('layouts/MyLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/SortingFinal.vue') }
+    ]
   }
 ]
 
